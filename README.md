@@ -1,6 +1,3 @@
-Here’s a simple README that covers the steps you provided:
-
-```markdown
 # NFT Market Place
 
 A decentralized marketplace for NFTs built with Solidity and Hardhat.
@@ -59,5 +56,3 @@ In another terminal, start the development server:
 npm run dev
 ```
 
-Now, your NFT marketplace should be up and running locally!
-```
