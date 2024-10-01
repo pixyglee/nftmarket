@@ -2,6 +2,9 @@
 
 A decentralized marketplace for NFTs built with Solidity and Hardhat.
 
+![Image](https://utfs.io/f/A8JZzw0Laf9jPGntkbeFvyX3DRkiwMfWcOVKr8lYCG901sxd)
+![Image](https://utfs.io/f/A8JZzw0Laf9j3tRSRY1eHnWBajspriovNKPtZG1MXc3mw4gR)
+
 ## Getting Started
 
 Follow these steps to set up and run the project locally.
