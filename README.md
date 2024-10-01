@@ -1,13 +1,63 @@
-# Sample Hardhat Project
+Here’s a simple README that covers the steps you provided:
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+```markdown
+# NFT Market Place
 
-Try running some of the following tasks:
+A decentralized marketplace for NFTs built with Solidity and Hardhat.
 
-```shell
-npx hardhat help
+## Getting Started
+
+Follow these steps to set up and run the project locally.
+
+### 1. Clone the Repository
+
+In your terminal, run the following command to clone the repository:
+
+```bash
+git clone https://github.com/pixyglee/nftmarket.git
+```
+
+### 2. Install Dependencies
+
+Navigate to the root folder of the cloned repository, and install the required dependencies by running:
+
+```bash
+npm install
+```
+
+### 3. Compile, Test, and Deploy Smart Contracts
+
+#### Compile the contracts:
+
+```bash
+npx hardhat compile
+```
+
+#### Run the tests:
+
+```bash
 npx hardhat test
-REPORT_GAS=true npx hardhat test
+```
+
+#### Start a local Hardhat node:
+
+```bash
 npx hardhat node
-npx hardhat run scripts/deploy.js
+```
+
+#### In a new terminal window, deploy the smart contracts:
+
+```bash
+npx hardhat run scripts/deploy.js --network localhost
+```
+
+### 4. Start the Frontend
+
+In another terminal, start the development server:
+
+```bash
+npm run dev
+```
+
+Now, your NFT marketplace should be up and running locally!
 ```
